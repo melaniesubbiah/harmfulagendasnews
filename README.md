@@ -28,8 +28,11 @@ The annotated data can be found in the file *newsagendas.jsonl*.
 ## Evaluation Code
 The results shown in the paper were generated using *Results_Tables.ipynb*.
 
-## Finetuning BERT model
+## Training BERT Agenda Model
 To finetune a BERT model to predict the agenda score from the article title and contents, we use the data splits found in *bert_training_datasets* for training with cross-validation. You can finetune BERT on these splits to replicate our results in the paper by running:
 ```
 python BERT_model.py
 ```
+
+## Training FRESH and BERT Feature Models
+
