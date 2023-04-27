@@ -1,0 +1,21 @@
+{
+    "fullfakenewscorps" : {
+        "MAX_LENGTH_RATIO" : 0.1,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "fakenewssubset" : {
+        "MAX_LENGTH_RATIO" : 0.1,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+
+    "toy" : {
+        "MAX_LENGTH_RATIO" : 0.1,
+        "BSIZE": 8,
+        "BERT_TYPE" : "bert-base-cased"
+
+}
+}

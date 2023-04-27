@@ -1,0 +1,108 @@
+{
+    "fullfakenewscorps" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+    "fakenewssubset" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "5class_news" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+    "4class_news" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+    "4class_news_trimmed" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+        "satire_long" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+        "consp_junk_satire_real" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "6class" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "6class_no_clickbait" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "7class" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "7class_no_title" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "detect_clickbait" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "detect_propaganda" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "detect_conspiracy" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "detect_hate" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+    "detect_junksci" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+        "detect_satire_mixed_negs" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "BSIZE": 16,
+        "BERT_TYPE" : "bert-base-cased"
+    },
+
+
+
+    "toy" : {
+        "MAX_LENGTH_RATIO" : 0.1,
+        "BSIZE": 8,
+        "BERT_TYPE" : "bert-base-cased"
+
+}
+}
