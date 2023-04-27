@@ -35,7 +35,7 @@ python BERT_model.py
 ```
 
 ## Training FRESH and BERT Feature Models
-Our BERT/FRESH feature model predictions on NewsAgendas can be found in the *results* folder. If you want to retrain the models yourself, you can use the *FRESH_dev* directory which builds off of the original FRESH paper's work. You can read the *updated_README.md* in this directory for more information on our modifications. From this directory, you can run:
+Our BERT/FRESH feature model predictions on NewsAgendas can be found in the *results* folder. If you want to retrain the models yourself, you can use the *FRESH_dev* directory which builds off of [the original FRESH paper's work](https://github.com/successar/FRESH). You can read the *updated_README.md* in this directory for more information on our modifications. From this directory, you can run:
 ```
 CUDA_DEVICE={CUDA_DEVICE} \
 EPOCHS=50 \
