@@ -47,3 +47,16 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 ```
 The training datasets are shared at [this link](https://drive.google.com/drive/folders/1tlvljeeVaeZMYkOIdkpaZPT-jbxe4hU5?usp=sharing) (non-Columbia affiliates will need to request access).
 
+## Citation
+If you are using this code, please cite the following:
+```
+@misc{subbiah2023detecting,
+      title={Detecting Harmful Agendas in News Articles}, 
+      author={Melanie Subbiah and Amrita Bhattacharjee and Bobby Yilun Hua and Tharindu Kumarage and Huan Liu and Kathleen McKeown},
+      year={2023},
+      eprint={2302.00102},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
