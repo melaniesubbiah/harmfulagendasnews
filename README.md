@@ -35,5 +35,14 @@ python BERT_model.py
 ```
 
 ## Training FRESH and BERT Feature Models
-Our BERT/FRESH feature model predictions on NewsAgendas can be found in the *results* folder. If you want to retrain the models yourself, you can run:
+Our BERT/FRESH feature model predictions on NewsAgendas can be found in the *results* folder. If you want to retrain the models yourself, you can use the *FRESH_dev* directory which builds off of the original FRESH paper's work. From this directory, you can run:
+```
+CUDA_DEVICE={CUDA_DEVICE} \
+EPOCHS=50 \
+DATASET_NAME={DATASET_NAME} \
+CLASSIFIER=bert_classification \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type fresh/experiment_script.sh \
+--defaults-file Rationale_Analysis/default_values/news_b16_r0.2.json
+```
 
