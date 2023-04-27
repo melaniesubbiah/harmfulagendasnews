@@ -45,4 +45,5 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type fresh/experiment_script.sh \
 --defaults-file Rationale_Analysis/default_values/news_b16_r0.2.json
 ```
+The training datasets are shared at [this link](https://drive.google.com/drive/folders/1tlvljeeVaeZMYkOIdkpaZPT-jbxe4hU5?usp=sharing) (non-Columbia affiliates will need to request access).
 
