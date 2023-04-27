@@ -2,7 +2,7 @@
 Code and data for the paper - [Detecting Harmful Agendas in News Articles](https://arxiv.org/abs/2302.00102).
 
 ## NewsAgendas Dataset
-The annotated data can be found in the file newsagendas.jsonl:
+The annotated data can be found in the file *newsagendas.jsonl*.
 - **id**: Article id.
 - **article-title**: Title of the article.
 - **article-contents**: Cleaned/formatted article contents.
@@ -24,4 +24,7 @@ The annotated data can be found in the file newsagendas.jsonl:
 - **weak-label-0**: Original source-level label assigned to the article. The first one listed by the [FakeNewsCorpus](https://github.com/several27/FakeNewsCorpus).
 - **weak-label-1**: Original source-level label assigned to the article. The second one listed by the [FakeNewsCorpus](https://github.com/several27/FakeNewsCorpus).
 - **weak-label-2**: Original source-level label assigned to the article. The third one listed by the [FakeNewsCorpus](https://github.com/several27/FakeNewsCorpus).
+
+## Evaluation Code
+The results shown in the paper were generated using *Results_Tables.ipynb*.
 
