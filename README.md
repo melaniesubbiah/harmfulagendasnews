@@ -35,4 +35,5 @@ python BERT_model.py
 ```
 
 ## Training FRESH and BERT Feature Models
+Our BERT/FRESH feature model predictions on NewsAgendas can be found in the *results* folder. If you want to retrain the models yourself, you can run:
 
