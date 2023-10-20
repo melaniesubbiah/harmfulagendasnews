@@ -1,5 +1,5 @@
-# Detecting Harmful Agendas in News Articles
-Code and data for the paper - [Detecting Harmful Agendas in News Articles](https://arxiv.org/abs/2302.00102).
+# Towards Detecting Harmful Agendas in News Articles
+Code and data for the ACL 2023 WASSA paper - [Towards Detecting Harmful Agendas in News Articles](https://aclanthology.org/2023.wassa-1.11/).
 
 ## NewsAgendas Dataset
 The annotated data can be found in the file *newsagendas.jsonl*.
@@ -50,13 +50,12 @@ The training datasets are shared at [this link](https://drive.google.com/drive/f
 ## Citation
 If you are using this code, please cite the following:
 ```
-@misc{subbiah2023detecting,
-      title={Detecting Harmful Agendas in News Articles}, 
-      author={Melanie Subbiah and Amrita Bhattacharjee and Bobby Yilun Hua and Tharindu Kumarage and Huan Liu and Kathleen McKeown},
-      year={2023},
-      eprint={2302.00102},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{subbiah2023towards,
+  title={Towards Detecting Harmful Agendas in News Articles},
+  author={Subbiah, Melanie and Bhattacharjee, Amrita and Hua, Yilun and Kumarage, Tharindu and Liu, Huan and McKeown, Kathleen},
+  booktitle={Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment, \& Social Media Analysis},
+  pages={110--128},
+  year={2023}
 }
 ```
 
